@@ -1,0 +1,71 @@
+Setup your homework environment
+===============================
+
+This guide will help you install conda and create the cv conda
+environment required for following the practice session. If you have
+an up to date conda version installed you can skip the first step. (To
+update conda run 'conda update anaconda' or if you have miniconda
+installed 'conda update conda'.)
+
+a) Install Conda
+----------------
+
+Practice session and assignments will use Jupyter notebooks, which
+requires Python. Moreover, we need additional Computer Vision
+packages.
+
+They are best managed with Conda:
+
+We recommend miniconda which you can install from here: 
+https://docs.conda.io/en/latest/miniconda.html 
+
+Alternatively download and install Anaconda which is larger and comes with more
+preinstalled packages.
+https://www.anaconda.com/download
+
+You can find installation instructions here:
+https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+
+b) Setup the cv environment
+----------------------------
+
+Download cv.yml from StudIP. Then in a terminal navigate to the
+directory where you saved cv.yml and run
+
+    'conda env create -f cv.yml' 
+
+
+c) Activate the environment
+---------------------------
+
+Always activate the environment when you work on the homework:
+
+    'conda activate cv'
+
+To deactivate an environment:
+
+    'conda deactivate'
+
+
+d) Run Jupyter Notebooks
+------------------------
+
+After you installed Python and the cv environment verify you are able
+to run the notebook server by opening your command line
+
+  jupyter notebook
+  
+Usually a browser window should open up. If not, open your favorite
+webbrowser and navigate to localhost:8888/tree.
+
+
+e) Documentation
+------------------------
+For more information on Conda refer to the Conda Documentation:
+https://conda.io/projects/conda/en/latest/index.html
+
+For Jupyter:
+https://jupyter.org/documentation
+
+
+
